@@ -1,0 +1,1 @@
+PREPARE GetOrderDetail FROM 'SELECT OrderID, Quantity, TotalCost FROM Orders WHERE customerdetails_customerid = customerdetails_customerid';
